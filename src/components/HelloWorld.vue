@@ -2,7 +2,7 @@
 import ClickCounter from './ClickCounter.vue'
 import ItemList from './ItemList.vue'
 import TodoList from './TodoList.vue'
-
+//こんにちは
 defineProps<{
   msg: string
 }>()
