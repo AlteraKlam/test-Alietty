@@ -18,11 +18,11 @@ function addTodo () {
   todos.value.push({name: newTodo.value})
 }
 
-function removeTodo(todo:object){
+function removeTodo(todo:Todo){
   todos.value = todos.value.filter((t) => t !== todo)
 }
 
-function makeDone (todo:object) {
+function makeDone (todo:Todo) {
   dones.value.push({name: todo.name})
   removeTodo(todo)
 }
